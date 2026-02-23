@@ -1,4 +1,4 @@
-FROM golang:1.23-alpine3.21
+FROM golang:1.24-alpine3.23
 
 # copy entrypoint file
 COPY entrypoint.go /usr/bin/entrypoint.go
